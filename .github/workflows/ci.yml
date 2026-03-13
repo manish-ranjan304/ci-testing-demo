@@ -20,10 +20,8 @@ jobs:
   python-version: '3.10'
 
   -name: Install dependencies
-  run:
-    pip install -r requirements.text
+   run: pip install -r requirements.txt
 
     -name: Run tests
-    run: |
-    pytest
+     run: pytest
   
